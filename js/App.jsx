@@ -3,6 +3,8 @@ function App () {
         <>
             <Navbar />
             <Banner />
+            <Projects />
+            <Experience />
         </>
         
     );

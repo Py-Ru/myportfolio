@@ -14,7 +14,7 @@ function Banner() {
         };
     }, []);
     return (
-        <section id="banner" className="flex flex-col justify-center items-center w-[90%] mx-auto">
+        <section id="banner" className="flex flex-col justify-center items-center mx-auto">
             <div id="full-name" className="w-full my-[24px] font-bold text-[3rem] text-center leading-[1.2] break-words">I am Amyr Yousufzai <br /> 
                 <span className="animated-text inline text-[24px] text-[#ba68c8] font-[400px] leading-[1.2]"></span>
             </div>
@@ -25,7 +25,7 @@ function Banner() {
                 <a href=".\assets\amyr-cv.docx" download class="block text-center bg-white-300 hover:bg-blue-600 border border-violet-950 text-black font-semibold mb-[10px] py-2 px-4 rounded-full shadow">
                     Download CV
                 </a>
-                <button onClick="getRandomQuote()" class="block w-full mb-[60px] text-white text-center bg-[#ba68c8] hover:bg-blue-600 text-black font-semibold py-2 px-4 rounded-full shadow">
+                <button onClick="getRandomQuote()" class="block w-full mb-[60px] text-white text-center bg-[#ba68c8] hover:bg-blue-600 border text-black font-semibold py-2 px-4 rounded-full shadow">
                     Get a quote
                 </button>
 
