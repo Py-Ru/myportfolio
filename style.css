@@ -82,7 +82,7 @@ section {
 .owl-next {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     width: 40px;
     height: 40px;
     border: none;
@@ -113,3 +113,7 @@ section {
     font-family: "Lilita One", sans-serif;
 }
 
+i {
+    font-size: 60px;
+    /* color:  #ba68c8; */
+}

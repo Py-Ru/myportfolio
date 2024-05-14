@@ -13,6 +13,7 @@ function Banner() {
             typed.destroy();
         };
     }, []);
+    
     return (
         <section id="banner" className="flex flex-col justify-center items-center mx-auto">
             <div id="full-name" className="w-full my-[24px] font-bold text-[3rem] text-center leading-[1.2] break-words">I am Amyr Yousufzai <br /> 
